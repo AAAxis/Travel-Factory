@@ -1,0 +1,168 @@
+
+
+
+@media(max-width:600px){
+
+  .contact-card{ width: 100%; }
+  
+
+}
+
+/* Style the contact form and card container */
+form, .contact-card-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  gap: 1rem;
+}
+
+.left{
+  width: 150px;
+  margin-right: 5px;
+
+float: right;
+}
+.right{
+
+  margin-left: 70px;
+}
+
+/* Style the contact card */
+.contact-card {
+  position: relative;
+  max-width: 700px;
+  min-width: 30%;
+  justify-content: center;
+  align-items: center;
+ 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.contact-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the contact image */
+.contact-card img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+
+  border-radius: 60%;
+
+
+}
+
+/* Style the contact details and edit form */
+.contact-details, .edit-contact-details {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Style the contact name */
+.contact-details h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.edit-contact-details input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+/* Style the actions buttons */
+.actions {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.actions button i {
+  font-size: 1.2rem;
+}
+
+.actions button i.fa-trash:hover {
+  color: red;
+}
+
+.actions button i.fa-pencil:hover {
+  color: blue;
+}
+
+/* Style the create contact form */
+form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+form button:hover {
+  background-color: #0063b3;
+}
+
+/* Style the create contact button */
+.create-contact-button {
+  margin-bottom: 1rem;
+}
+
+.create-contact-button button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.create-contact-button button:hover {
+  background-color: #218838;
+}
+
+input {
+
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0077FF;
+}
+
+
